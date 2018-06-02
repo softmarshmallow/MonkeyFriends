@@ -166,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@null"
-                android:text="@string/btn_enter_register"
+                android:text="회원가입"
                 android:textAllCaps="false"
                 android:textColor="#FFF"/>
 

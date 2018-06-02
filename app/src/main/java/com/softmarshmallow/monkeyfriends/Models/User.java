@@ -1,4 +1,4 @@
-package com.softmarshmallow.monkeyfriends.Views.Dummy;
+package com.softmarshmallow.monkeyfriends.Models;
 
 import java.util.ArrayList;
 
@@ -9,6 +9,7 @@ public class User {
     String pw;
     String name;
     String gender;
+    public String profileImageUrl;
     int face ;
     int height ;
     int weight;

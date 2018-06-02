@@ -1,4 +1,4 @@
-package com.softmarshmallow.monkeyfriends.Views.Dummy;
+package com.softmarshmallow.monkeyfriends.Models;
 
 public class Notifications {
     String message; // 선전포고 !

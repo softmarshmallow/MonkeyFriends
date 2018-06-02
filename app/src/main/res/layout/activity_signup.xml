@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@android:color/darker_gray"
+        android:src="@drawable/splash_bg"
         android:scaleType="centerCrop" />
 
     <ImageView
@@ -90,8 +90,8 @@
                 android:inputType="textEmailAddress"
                 android:letterSpacing="0.1"
                 android:paddingLeft="10dp"
-                android:textColor="#fff"
-                android:textColorHint="#fff"
+                android:textColor="#585858"
+                android:textColorHint="#585858"
                 android:textSize="13dp"/>
         </LinearLayout>
 
@@ -123,8 +123,8 @@
                 android:inputType="textPassword"
                 android:letterSpacing="0.1"
                 android:paddingLeft="10dp"
-                android:textColor="#fff"
-                android:textColorHint="#fff"
+                android:textColor="#585858"
+                android:textColorHint="#585858"
                 android:textSize="13dp"/>
         </LinearLayout>
 
@@ -156,8 +156,8 @@
                 android:inputType="textPassword"
                 android:letterSpacing="0.1"
                 android:paddingLeft="10dp"
-                android:textColor="#fff"
-                android:textColorHint="#fff"
+                android:textColor="#585858"
+                android:textColorHint="#585858"
                 android:textSize="13dp"/>
         </LinearLayout>
 

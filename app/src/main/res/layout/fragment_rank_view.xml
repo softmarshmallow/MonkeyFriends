@@ -7,91 +7,90 @@
     tools:context=".Views.RankView.RankViewFragment">
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
-        android:background="#DF7401"
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="#DF7401">
 
         <TextView
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Ranking"
             android:textColor="#ffffff"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/profile_image1"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:src="@drawable/face"
-            app:civ_border_color="#FFFFFF" />
+            app:civ_border_color="#FFFFFF"
+            tools:ignore="RtlCompat" />
 
         <TextView
-            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
             android:text="1"
-            android:textSize="40dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textSize="40sp" />
 
         <TextView
-            android:layout_marginLeft="30dp"
-            android:textSize="50dp"
-            android:text="김영서"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="김영서"
+            android:textSize="50sp" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/profile_image1"
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image2"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20sp"
             android:src="@drawable/face"
-            app:civ_border_color="#FFFFFF" />
+            app:civ_border_color="#FFFFFF"
+            tools:ignore="RtlCompat" />
 
         <TextView
-            android:layout_marginLeft="20dp"
-            android:layout_gravity="center"
-            android:text="2"
-            android:textSize="40dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="2"
+            android:textSize="40dp" />
 
         <TextView
-            android:layout_marginLeft="30dp"
-            android:textSize="50dp"
-            android:text="정우주"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="정우주"
+            android:textSize="50dp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/profile_image3"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -100,25 +99,22 @@
             app:civ_border_color="#FFFFFF" />
 
         <TextView
-            android:layout_marginLeft="20dp"
-            android:layout_gravity="center"
-            android:text="3"
-            android:textSize="40dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="3"
+            android:textSize="40dp" />
 
         <TextView
-            android:layout_marginLeft="30dp"
-            android:textSize="50dp"
-            android:text="송주현"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="송주현"
+            android:textSize="50dp" />
 
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>

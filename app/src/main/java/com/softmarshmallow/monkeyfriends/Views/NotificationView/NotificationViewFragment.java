@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 
 import com.softmarshmallow.monkeyfriends.R;
 
@@ -14,7 +15,6 @@ import com.softmarshmallow.monkeyfriends.R;
  */
 public class NotificationViewFragment extends Fragment
 {
-
 
         public NotificationViewFragment() {
                 // Required empty public constructor

@@ -1,43 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <layout xmlns:android="http://schemas.android.com/apk/res/android"/>
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.RankView.RankViewFragment">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="183dp"
-        android:layout_height="47dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
-        android:text="Notifications"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentLeft="true" />
+        android:text="Notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-    <ImageView
-    android:src="@drawable/face"
-    android:layout_marginStart="16dp"
-    android:layout_centerVertical="true"
-    android:layout_width="40dp"
-    android:layout_height="40dp"
-    android:layout_marginLeft="16dp" />
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/face"
+        app:civ_border_color="#FFFFFF" />
 
-    <TextView
-        android:text="보이루"
-        android:id="@+id/itemNameTv"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="72dp"
-        android:textSize="18sp"
+    <Button
+        android:text="민제님에게서 선전포고! 걸어서 대림역\n까지 가십시오 보상 : 바나나300개"
+        android:background="#00000"
+        android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp" />
+        android:layout_height="80dp" />
 
-    </RelativeLayout>
+</LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/face"
+            app:civ_border_color="#FFFFFF" />
+
+        <Button
+            android:text="축하드립니다! 대림역까지 걸어가기 미션성공 하였습니다. 보상 바나나 300게"
+            android:background="#00000"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/face"
+            app:civ_border_color="#FFFFFF" />
+
+        <Button
+            android:text="오늘총 8000보 를 걸어\n 바나나를  80개획득 하였습니다."
+            android:background="#00000"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/face"
+            app:civ_border_color="#FFFFFF" />
+        <Button
+            android:text="새로운 친구, 우주님께 선전포고를 하세요!"
+            android:background="#00000"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

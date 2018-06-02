@@ -2,9 +2,7 @@ package com.softmarshmallow.monkeyfriends.Views.Dummy;
 
 import java.util.ArrayList;
 
-/**
- * Created by intel on 2018-06-02.
- */
+
 
 public class User {
     String id;

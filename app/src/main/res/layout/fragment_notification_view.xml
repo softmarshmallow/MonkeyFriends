@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <layout xmlns:android="http://schemas.android.com/apk/res/android"/>
     <TextView
         android:id="@+id/textView2"
         android:layout_width="183dp"
@@ -16,15 +17,26 @@
         android:text="Notifications"
         android:textSize="30dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true" />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler"
+    <ImageView
+    android:src="@drawable/face"
+    android:layout_marginStart="16dp"
+    android:layout_centerVertical="true"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="16dp" />
+    <TextView
+        android:text="asdfasdfasdfsadf"
+        android:id="@+id/itemNameTv"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="72dp"
+        android:textSize="18sp"
         android:layout_width="match_parent"
-        android:layout_height="486dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="81dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp" />
 
     </RelativeLayout>
 

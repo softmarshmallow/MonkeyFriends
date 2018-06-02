@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context=".Views.NotificationView.NotificationViewFragment">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <layout xmlns:android="http://schemas.android.com/apk/res/android"/>
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"/>
+        android:id="@+id/textView2"
+        android:layout_width="183dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="Notifications"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true" />
 
-</FrameLayout>
+    <ImageView
+    android:src="@drawable/face"
+    android:layout_marginStart="16dp"
+    android:layout_centerVertical="true"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:text="보이루"
+        android:id="@+id/itemNameTv"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="72dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp" />
+
+    </RelativeLayout>
+

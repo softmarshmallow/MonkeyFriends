@@ -14,8 +14,8 @@ import com.softmarshmallow.monkeyfriends.R;
  */
 public class NotificationViewFragment extends Fragment
 {
-        
-        
+
+
         public NotificationViewFragment() {
                 // Required empty public constructor
         }
@@ -27,5 +27,4 @@ public class NotificationViewFragment extends Fragment
                 // Inflate the layout for this fragment
                 return inflater.inflate(R.layout.fragment_notification_view, container, false);
         }
-        
 }

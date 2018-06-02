@@ -16,7 +16,6 @@
         android:background="#6E6E6E"
         android:id="@+id/relativeLayout">
 
-
         <TextView
             android:textColor="#FFFF00"
             android:id="@+id/textView2"

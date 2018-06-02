@@ -1,14 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".Views.RankView.RankViewFragment">
-
-<!-- TODO: Update blank fragment layout -->
-<TextView
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:text="@string/hello_blank_fragment"/>
+    android:orientation="vertical"
+    tools:context=".Views.RankView.RankViewFragment">
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:background="#DF7401"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ranking"
+            android:textColor="#ffffff"
+            android:textSize="35dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/face"
+            app:civ_border_color="#FFFFFF" />
+
+        <TextView
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:text="민제님에게서 선전포고! \n 걸어서 대림역까지 가십시오 \n 보상 : 바나나300개" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/face"
+            app:civ_border_color="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:text="민제님에게서 선전포고! \n 걸어서 대림역까지 가십시오 \n 보상 : 바나나300개" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/face"
+            app:civ_border_color="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:text="민제님에게서 선전포고! \n 걸어서 대림역까지 가십시오 \n 보상 : 바나나300개" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

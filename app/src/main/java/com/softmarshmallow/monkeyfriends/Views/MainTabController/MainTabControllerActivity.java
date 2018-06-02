@@ -94,44 +94,40 @@ public class MainTabControllerActivity extends AppCompatActivity
                 final ArrayList<NavigationTabBar.Model> models = new ArrayList<>();
                 models.add(
                         new NavigationTabBar.Model.Builder(
-                                getResources().getDrawable(R.drawable.ic_dots),
+                                getResources().getDrawable(R.drawable.ic_monkey),
                                 Color.parseColor(colors[0]))
-                                .title("Featured")
-                                .badgeTitle("New")
+                                .title("홈")
                                 .build()
                 );
                 models.add(
                         new NavigationTabBar.Model.Builder(
-                                getResources().getDrawable(R.drawable.ic_dots),
+                                getResources().getDrawable(R.drawable.ic_layers_outline),
                                 Color.parseColor(colors[0]))
 
-                                .title("Search")
-                                // .badgeTitle("with")
+                                .title("피드")
                                 .build()
                 );
                 models.add(
 
                                 new NavigationTabBar.Model.Builder(
-                                getResources().getDrawable(R.drawable.ic_dots),
+                                getResources().getDrawable(R.drawable.ic_star_round_bg),
                                 Color.parseColor(colors[0]))
-                                .title("My Foodle")
-                                // .badgeTitle("state")
+                                .title("랭크")
                                 .build()
                 );
                 models.add(
                         new NavigationTabBar.Model.Builder(
-                                getResources().getDrawable(R.drawable.ic_dots),
+                                getResources().getDrawable(R.drawable.ic_notification_bell),
                                 Color.parseColor(colors[0]))
-                                .title("Notifications")
-                                .badgeTitle("3")
+                                .title("알림")
                                 .build()
                 );
                 models.add(
                         new NavigationTabBar.Model.Builder(
-                                getResources().getDrawable(R.drawable.ic_dots),
+                                getResources().getDrawable(R.drawable.ic_ellipsis),
                                 Color.parseColor(colors[0]))
 //                        .selectedIcon(getResources().getDrawable(R.drawable.ic_eighth))
-                                .title("More")
+                                .title("더보기")
                                 // .badgeTitle("icon")
                                 .build()
                 );

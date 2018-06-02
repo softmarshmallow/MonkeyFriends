@@ -10,7 +10,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="50dp"
-        android:textSize="30dp"
+        android:textSize="35dp"
         android:text="Notifications"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -29,11 +29,10 @@
         app:civ_border_color="#FFFFFF" />
 
     <Button
-        android:text="민제님에게서 선전포고! \n 걸어서 대림역까지 가십시오 \n 보상 : 바나나300개"
-        android:background="#00000"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="80dp" />
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:text="민제님에게서 선전포고! \n 걸어서 대림역까지 가십시오 \n 보상 : 바나나300개" />
 
 </LinearLayout>
 
@@ -54,7 +53,6 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_gravity="center"
-            android:background="#00000"
             android:text="축하드립니다! \n 대림역까지 걸어가기 미션성공 하였습니다. \n 보상 바나나 300개" />
 
     </LinearLayout>
@@ -74,7 +72,6 @@
 
         <Button
             android:text="오늘총 8000보 를 걸어\n 바나나를 80개를 획득 하였습니다."
-            android:background="#FFFFFF"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="80dp" />
@@ -95,7 +92,6 @@
             app:civ_border_color="#FFFFFF" />
         <Button
             android:text="새로운 친구, 우주님께 선전포고를 하세요!"
-            android:background="#00000"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="80dp" />

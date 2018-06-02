@@ -55,7 +55,7 @@
                         android:layout_height="20dp"
                         android:background="@null"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/ic_dots"
+                        android:src="@drawable/menu"
                         android:tint="@color/colorPrimaryDark"/>
 
                     <ImageView
@@ -63,7 +63,7 @@
                         android:layout_width="70dp"
                         android:layout_height="35dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_dots"/>
+                        android:src="@drawable/text_logo"/>
                 </android.support.v7.widget.Toolbar>
 
 

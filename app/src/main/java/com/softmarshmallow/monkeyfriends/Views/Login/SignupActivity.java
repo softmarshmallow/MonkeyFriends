@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
+import com.bumptech.glide.Glide;
 import com.softmarshmallow.monkeyfriends.R;
 
 import butterknife.BindView;
@@ -30,7 +31,6 @@ public class SignupActivity extends AppCompatActivity
                 super.onCreate(savedInstanceState, persistentState);
                 setTheme(R.style.AppTheme_FullScreen);
                 setContentView(R.layout.activity_signup);
-        
                 ButterKnife.bind(this);
         }
 }

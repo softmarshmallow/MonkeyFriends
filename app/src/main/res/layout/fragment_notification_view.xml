@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <layout xmlns:android="http://schemas.android.com/apk/res/android"/>
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="183dp"
@@ -22,15 +22,15 @@
         android:layout_alignParentLeft="true" />
 
     <ImageView
-
     android:src="@drawable/face"
     android:layout_marginStart="16dp"
     android:layout_centerVertical="true"
     android:layout_width="40dp"
     android:layout_height="40dp"
     android:layout_marginLeft="16dp" />
+
     <TextView
-        android:text="asdfasdfasdfsadf"
+        android:text="보이루"
         android:id="@+id/itemNameTv"
         android:layout_centerVertical="true"
         android:layout_marginStart="72dp"

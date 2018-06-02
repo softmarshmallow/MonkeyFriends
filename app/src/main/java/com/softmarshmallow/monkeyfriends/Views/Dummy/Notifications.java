@@ -1,9 +1,5 @@
 package com.softmarshmallow.monkeyfriends.Views.Dummy;
 
-/**
- * Created by intel on 2018-06-02.
- */
-
 public class Notifications {
     String message; // 선전포고 !
     String station; // 대림역

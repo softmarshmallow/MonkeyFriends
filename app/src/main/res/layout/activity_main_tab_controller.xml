@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.mxn.soul.flowingdrawer_core.FlowingDrawer
+
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:edMenuBackground="#dddddd"
+        app:edMenuSize="260dp"
+        app:edPosition="1">
+
+        <!--content-->
+
+        <RelativeLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Views.MainTabController.MainTabControllerActivity">
+
+            <RelativeLayout
+                android:id="@+id/toolbarContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:elevation="6dp"
+                android:minHeight="?attr/actionBarSize">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorPrimary"
+                    android:elevation="6dp"
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                    <ImageButton
+                        android:id="@+id/showSideNavigationButton"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_dots"
+                        android:tint="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/toolbar_title"
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_dots"/>
+                </android.support.v7.widget.Toolbar>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_below="@id/toolbar"/>
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/NavigationTabBarContainer"
+                android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                android:layout_height="40dp">
+
+
+                <devlight.io.library.ntb.NavigationTabBar
+                    android:id="@+id/ntb_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:ntb_active_color="@color/colorPrimary"
+                    app:ntb_badge_gravity="top"
+                    app:ntb_badge_position="right"
+                    app:ntb_badged="true"
+                    app:ntb_bg_color="@color/colorPrimary"
+                    app:ntb_scaled="true"
+                    app:ntb_swiped="true"
+                    app:ntb_tinted="true"
+                    app:ntb_title_mode="all"
+                    app:ntb_titled="true"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@android:color/darker_gray"/>
+
+            </RelativeLayout>
+
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/NavigationTabBarContainer"
+                android:layout_below="@+id/toolbarContainer"/>
+
+        </RelativeLayout>
+
+
+        <!--menu-->
+        <com.mxn.soul.flowingdrawer_core.FlowingMenuLayout
+            android:id="@+id/menulayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/container_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.mxn.soul.flowingdrawer_core.FlowingMenuLayout>
+
+
+    </com.mxn.soul.flowingdrawer_core.FlowingDrawer>
+
+
+</FrameLayout>
+
+
+
+
+

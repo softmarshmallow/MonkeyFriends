@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="colorPrimary">#ffffff</color>
+    <color
+        name="colorPrimaryDark">#ff5252</color>
+    <color
+        name="colorAccent">#ff6565</color>
+    <color
+        name="colorIdentity">#ee5555</color>
+    <color
+        name="colorILight">#FF9696</color>
+    <color
+        name="tabSelectedIconColor">#ee5555</color>
+    <color
+        name="tabUnselectedIconColor">#ee5555</color>
+
+    <color
+        name="colorDisabled">#DFDFE0</color>
+    <color
+        name="viewBg">#ffffff</color>
+
+    <color name="nomaltext">#525252</color>
+    <!--region Dividers-->
+    <color name="dividerLight">#CBCBCB</color>
+    <!--endregion-->
+    <color name="loginColor">#FFFFFF</color>
+
+    <!--region Tints-->
+    <color name="colorDark">#545254</color>
+    <color name="colorLightDark">#8E8E93</color>
+    <color name="colorLight">#CECDCF</color>
+    <!--endregion-->
+
+
+    <!--region TextColors-->
+    <color name="textDark">#545254</color>
+    <color name="textLightDark">#8E8E93</color>
+    <color name="textLight">#CECDCF</color>
+    <color name="textWhite">#ffff</color>
+    <!--endregion-->
+
+
+</resources>

@@ -22,6 +22,7 @@
         android:layout_alignParentLeft="true" />
 
     <ImageView
+
     android:src="@drawable/face"
     android:layout_marginStart="16dp"
     android:layout_centerVertical="true"

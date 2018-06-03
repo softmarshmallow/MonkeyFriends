@@ -22,8 +22,7 @@ import com.softmarshmallow.monkeyfriends.R;
 public class FeedViewFragment extends Fragment
 {
 
-
-
+        
         public FeedViewFragment() {
                 // Required empty public constructor
 

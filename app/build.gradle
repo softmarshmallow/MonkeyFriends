@@ -97,6 +97,10 @@ dependencies {
     implementation 'com.mxn.soul:flowingdrawer-core:2.0.0'
     implementation 'com.nineoldandroids:library:2.4.0'
 
+    // CircularProgressBar
+    compile 'com.mikhaellopez:circularprogressbar:1.1.1'
+
+
 
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])

@@ -13,11 +13,20 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="#6E6E6E"
+        android:background="#464646"
         android:id="@+id/relativeLayout">
 
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:layout_width="220dp"
+            android:layout_height="213dp"
+            android:layout_centerInParent="true"
+            app:cpb_background_progressbar_color="#FFCDD2"
+            app:cpb_background_progressbar_width="5dp"
+            app:cpb_progressbar_color="#F44336"
+            app:cpb_progressbar_width="10dp"/>
+
         <TextView
-            android:textColor="#FFFF00"
+            android:textColor="#ffff80"
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,7 +36,7 @@
             android:textSize="40dp" />
 
         <TextView
-            android:textColor="#FFFF00"
+            android:textColor="#ffff80"
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,9 +59,9 @@
 
     </RelativeLayout>
 
-    <RelativeLayout
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="317dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/relativeLayout"
@@ -61,57 +70,73 @@
 
         <ImageButton
             android:id="@+id/button"
-            android:layout_width="150dp"
-            android:layout_height="130dp"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
             android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
             android:layout_toLeftOf="@+id/button2"
             android:layout_toStartOf="@+id/button2"
             android:background="#ffffff"
             android:scaleType="fitXY"
             android:src="@drawable/newmissionbtn"
-            android:text="Button" />
+            android:text="Button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <ImageButton
-            android:scaleType="fitXY"
             android:id="@+id/button2"
-            android:background="#ffffff"
-            android:src="@drawable/nowmissionbtn"
-            android:layout_width="150dp"
-            android:layout_height="130dp"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/button"
-            android:layout_marginEnd="52dp"
-            android:layout_marginRight="52dp"
-            android:text="Button" />
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            android:src="@drawable/nowmissionbtn"
+            android:text="Button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"/>
 
         <ImageButton
             android:id="@+id/button3"
-            android:layout_width="150dp"
-            android:layout_height="130dp"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
             android:layout_alignLeft="@+id/button"
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/button"
-            android:layout_marginTop="133dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
             android:background="#ffffff"
             android:scaleType="fitXY"
             android:src="@drawable/titlebtn"
-            android:text="Button" />
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4"/>
 
         <ImageButton
             android:id="@+id/button4"
-            android:layout_width="150dp"
-            android:layout_height="130dp"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
             android:layout_alignParentBottom="true"
             android:layout_alignTop="@+id/button3"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
             android:layout_toEndOf="@+id/button"
             android:layout_toRightOf="@+id/button"
             android:background="#ffffff"
             android:scaleType="fitXY"
             android:src="@drawable/mylogbtn"
-            android:text="Button" />
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
-    </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
 
 
 

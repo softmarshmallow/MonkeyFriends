@@ -8,8 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.mikhaellopez.circularprogressbar.CircularProgressBar;
 import com.softmarshmallow.monkeyfriends.R;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -31,10 +33,13 @@ public class HomeViewFragment extends Fragment
                 // Inflate the layout for this fragment
                 View view =  inflater.inflate(R.layout.fragment_home_view, container, false);
                 
-                ButterKnife.bind(view);
+                ButterKnife.bind(this, view);
                 
                 return view;
         }
+        
+        @BindView(R.id.progressBar)
+        CircularProgressBar progressBar;
         
         @OnClick(R.id.logButton)
         void OnLogButtonClick(){

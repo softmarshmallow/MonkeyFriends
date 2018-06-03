@@ -17,11 +17,12 @@
         android:id="@+id/relativeLayout">
 
         <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/progressBar"
             android:layout_width="220dp"
             android:layout_height="213dp"
             android:layout_centerInParent="true"
-            app:cpb_background_progressbar_color="#FFCDD2"
-            app:cpb_background_progressbar_width="5dp"
+            app:cpb_background_progressbar_color="#ffffff"
+            app:cpb_background_progressbar_width="10dp"
             app:cpb_progressbar_color="#F44336"
             app:cpb_progressbar_width="10dp"/>
 

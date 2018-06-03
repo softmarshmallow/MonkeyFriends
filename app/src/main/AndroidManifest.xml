@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           package="com.softmarshmallow.monkeyfriends">
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:largeHeap="true"
-        android:hardwareAccelerated="false"
         tools:replace="android:icon">
-        <activity
-            android:name=".Views.Splash.SplashScreenActivity">
+        <activity android:name=".Views.Splash.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -25,6 +23,12 @@
         <activity android:name=".Views.MainTabController.MainTabControllerActivity"/>
         <activity android:name=".Views.Login.LoginActivity"/>
         <activity android:name=".Views.Login.SignupActivity"/>
+        <activity android:name=".Views.MissonForm.TargetFriendActivity">
+        </activity>
+        <activity android:name=".Views.MissonForm.SelectMissionTypeActivity">
+        </activity>
+        <activity android:name=".Views.MissonForm.RockFormActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -61,7 +61,7 @@ public class SplashScreenActivity extends AppCompatActivity
                         finish();
                 }*/
         
-                Intent intent = new Intent(SplashScreenActivity.this, MainTabControllerActivity.class);
+                Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
                 

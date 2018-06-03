@@ -34,8 +34,14 @@ public class LoginActivity extends AppCompatActivity
                 setTheme(R.style.AppTheme_FullScreen);
                 setContentView(R.layout.activity_login);
                 ButterKnife.bind(this);
+        }
+        
+        
+        @OnClick(R.id.loginButton)
+        void OnLoginClick(){
                 LoadNext();
         }
+        
         
         void LoadNext(){
                 Log.d("", "LoadNext");

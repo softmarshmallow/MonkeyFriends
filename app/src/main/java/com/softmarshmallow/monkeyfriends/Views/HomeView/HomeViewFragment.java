@@ -1,6 +1,7 @@
 package com.softmarshmallow.monkeyfriends.Views.HomeView;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.mikhaellopez.circularprogressbar.CircularProgressBar;
 import com.softmarshmallow.monkeyfriends.R;
+import com.softmarshmallow.monkeyfriends.Views.MissonForm.TargetFriendActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -43,7 +45,9 @@ public class HomeViewFragment extends Fragment
         
         @OnClick(R.id.logButton)
         void OnLogButtonClick(){
-                Log.d("W", "WORDKSSS");
+        
+        
+        
         }
         
         
@@ -54,7 +58,8 @@ public class HomeViewFragment extends Fragment
         
         @OnClick(R.id.newMissionButton)
         void OnNewMissionButtonClick(){
-        
+                Intent intent = new Intent(getContext(), TargetFriendActivity.class);
+                startActivity(intent);
         }
         
         @OnClick(R.id.todayMissionButton)
